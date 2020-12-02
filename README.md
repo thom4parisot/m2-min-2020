@@ -57,7 +57,7 @@ Pas encore constitués.
 
 - [Code source](https://github.com/ambanum/CGUs/)
 - [Problématiques et enjeux](https://github.com/ambanum/CGUs/wiki/CGUs---Potential-Data-Use-Cases)
-- [Exporter le projet en tant que dataset](https://github.com/ambanum/CGUs/blob/master/scripts/export/README.md)
+- [Dataset](https://github.com/ambanum/CGUs-versions/releases)
 
 ## Historique des valeurs de transactions immobilières
 
