@@ -31,11 +31,34 @@ L'organisation du cours sera basé sur les apprentissages de la [promotion 2019/
 
 # Ressources pour apprendre
 
-N/A
-
+- HTML
+  - [Toutes les balises HTML](https://developer.mozilla.org/docs/Web/HTML/Element)
+  - [balise `<a>`](https://developer.mozilla.org/docs/Web/HTML/Element/a)
+- CSS
+  - [Toutes les propriétés CSS](https://developer.mozilla.org/docs/Web/CSS/Reference)
+  - [Un jeu avec les sélecteurs CSS](https://flukeout.github.io/)
+  - [Transitionner d'un état vers un autre](https://developer.mozilla.org/docs/Web/CSS/transition)
+  - [Animer un élément](https://developer.mozilla.org/docs/Web/CSS/animation)
+  - [Transformer un élément](https://developer.mozilla.org/docs/Web/CSS/transform) (rotation, inclinaison, perspective 3D)
+- DOM (lire et modifier des éléments HTML en écrivant du JavaScript)
+  - [Element](https://developer.mozilla.org/docs/Web/API/Element)
+  - [document](https://developer.mozilla.org/docs/Web/API/Document)
+  - [querySelector()](https://developer.mozilla.org/docs/Web/API/Document/querySelector) et [querySelectorAll()](https://developer.mozilla.org/docs/Web/API/Document/querySelectorAll) pour trouver un ou des éléments dans la page (en utilisant un sélecteur CSS)
+- SVG (dessiner des images responsives, stylables et animables en CSS)
+  - [https://developer.mozilla.org/docs/Web/SVG](Documentation SVG)
+  - [balise `<circle>`](https://developer.mozilla.org/docs/Web/SVG/Element/circle)
+  - [balise `<text>`](https://developer.mozilla.org/docs/Web/SVG/Element/text)
+  - [Réaliser des icônes en SVG](https://fvsch.com/svg-icons/)
+- JavaScript et Node.js
+  - [Livre Node.js par la pratique](https://oncletom.io/node.js/#chapitres)
+  
 # Ressources pour vos projets
 
-N/A
+- Coordonnées GPS de communes
+  - Site laposte
+  - [Découpage région/départements/communes](https://geo.api.gouv.fr/decoupage-administratif/regions)
+  - [Géolocalisation à partir de Codes INSEE](https://geo.api.gouv.fr/adresse#csv-search)
+  - [Fichier Codes INSEE géolocalisés](http://www.nosdonnees.fr/dataset/donnes-gographiques-des-communes-par-code-insee) (peut-être pas à jour)
 
 # Groupes projets
 
@@ -55,6 +78,8 @@ Pas encore constitués.
 
 ## Historique des changements des conditions générales d'utilisation
 
+Personne ressource : Vincent Viers.
+
 - [Code source](https://github.com/ambanum/CGUs/)
 - [Problématiques et enjeux](https://github.com/ambanum/CGUs/wiki/CGUs---Potential-Data-Use-Cases)
 - [Dataset](https://github.com/ambanum/CGUs-versions/releases)
@@ -63,3 +88,27 @@ Pas encore constitués.
 
 - [Demandes de valeurs foncières](https://www.data.gouv.fr/fr/datasets/demandes-de-valeurs-foncieres/)
 - [Site web de démonstration](https://app.dvf.etalab.gouv.fr/)
+
+## Impact du tourisme
+
+- [Base nationale des données du tourisme](https://www.data.gouv.fr/fr/datasets/datatourisme-la-base-nationale-des-donnees-du-tourisme-en-open-data/)
+- Problématiques explorables :
+  - Impact du COVID-19 sur l'ouverture des lieux
+  - Impact sur la qualité des eaux de baignade
+  
+## Impacts du changement climatique sur l'eau
+
+- [Piste de départ](https://www.eaufrance.fr/les-impacts-du-changement-climatique-sur-leau)
+- Problématiques explorables :
+  - Observation de phénomènes extrêmes (températures élevées, températures basses, pluies importantes, pluies absentes) à une échelle locale/compréhensible (ma ville, "mon coin")
+
+## Répartition des parcelles en aides PAC
+
+Personne ressource : Thomas Parisot.
+
+Données confidentielles.
+
+- _Fichier Shapefile_ (`.shp`) contenant l'emplacement des parcelles recevant des aides PAC pour l'agriculture bio, et l'agriculture dite conventionnelle pour un département donné, datées de 2018
+- [Site web de démonstration](https://cartobio.org)
+- Problématiques explorables :
+  - Visualiser les types de cultures, et leur type d'agriculture (bio ou conventionnelle) en fonction de critères (ville, biorégion, etc.)
