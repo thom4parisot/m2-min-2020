@@ -1,0 +1,54 @@
+<html>
+  <head>
+    <title>Titre du document (dans l'on voit dans l'onglet)</title>
+    
+    <style>
+      /* syntaxe CSS */
+      h1 {
+        color: red;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1 style="color: blue">Titre du document</h1>
+    
+    <h1>
+      Un autre titre
+    </h1>
+    
+    <input type="checkbox" value="Truc">
+    
+    <!-- le bouton qu'on peut bouger de 0 à 100 -->
+    <input type="range" min="0" max="100" id="pourcentage" value="30">
+    
+    
+
+    <p>
+      Ceci est un paragraphe.
+      
+      <img src="http://placekitten.com/200/300" alt="Un chat qui regarde l'objectif de l'appareil photo">
+    </p>
+    
+    <toto>Tomate</toto>
+    
+    <div>
+      Tomate
+    </div>
+    
+    <!-- espace d'affichage du résultat -->
+    <output></output>
+    
+    <script>
+      /* syntaxe JavaScript */
+      var boutonPourcentage = document.querySelector('#pourcentage')
+      var affichage = document.querySelector('output')
+      
+      function fonctionQuiReagitAuChangement (event) {
+        affichage.innerText = boutonPourcentage.value
+      }
+      
+      boutonPourcentage.addEventListener('input', fonctionQuiReagitAuChangement)
+    </script>
+  </body>
+</html>
