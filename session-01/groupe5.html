@@ -1,0 +1,101 @@
+<!-- Groupe: Sheila, Mehdi, Pierre -->
+
+<!-- le résultat est visible sur https://m2-min-2020.glitch.me/session-01/groupe5.html -->
+<!-- image de référence dans le répertoire /assets -->
+<!-- https://cdn.glitch.com/c2d50366-41cd-47aa-807d-2bd2c5d0dfa4%2Fthumbnails%2Ftrello.png?1610102739562 -->
+
+<html>
+  <head>
+    <title>Trello</title>
+
+    <style>
+      /* syntaxe CSS */
+      body {
+        background-color: #73C0FF;
+        font-family: 'Roboto';
+        margin : 0;
+      }
+      .trello {
+        height: 100vh;
+    
+        background-color : #0079bf;
+      }
+      
+      .navbar {
+        background-color: #0067a3;
+        
+      }
+      .cols {
+        display: flex;
+        overflow-x: auto;
+        
+      
+        
+        
+      }
+      .col {
+        
+        background-color: #e2e4e6;
+        width: 300px;
+        height: 200px;
+       
+        
+       
+      }
+      
+      ul {
+        list-style: none;
+        margin: 0;
+      }
+      
+      li {
+        background-color: #fff;
+        margin-bottom: 10px;
+      }
+      header {
+        
+        font-size: 18px;
+        font-weight: bold;
+        
+      }
+      
+      footer {
+        
+        color: #888;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="trello">
+      <nav class="navbar">
+        <!-- TO DO -->
+        <button class="home">HOME</button>
+        <button class="board">BOARD</button>
+        <input class="board" type = "text" placeholder="recherche"/>
+        <img class="logoSearch" src="../assets/logo_trello.png"/>
+        <div class="trelloTitle">TRELLO</div>
+        <button class="Add">+</button>
+        <button class="help">i</button>
+      </nav>
+      <div class="cols">
+        <span class="col">
+          <header contenteditable>List 1 name</header>
+          <ul>
+            <li>element 1.1</li>
+            <li>element 1.2</li>
+          </ul>
+          <footer>+ Add another card</footer>
+        </span>
+        <span class="col">
+          <header contenteditable>List 2 name</header>
+          <ul>
+            <li>element 2.1</li>
+            <li>element 2.2</li>
+          </ul>
+          <footer>+ Add another card</footer>
+        </span>
+      </div>
+    </div>
+  </body>
+</html>

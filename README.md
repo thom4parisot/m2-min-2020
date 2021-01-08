@@ -21,7 +21,7 @@ L'organisation du cours sera basé sur les apprentissages de la [promotion 2019/
 
 # Journal de bord
 
-- 6 janvier 2021 : création des groupes projet, présentation des données (présentiel)
+- [Mercredi 6 janvier 2021](JOURNAL.md#mercredi-6-janvier-2021) : présentation des données (présentiel)
 - Vendredi 8 janvier 2021 (toute la journée, présentiel)
 - Lundi 18 janvier 2021 (toute la journée, présentiel)
 - Vendredi 22 janvier 2021 (toute la journée, présentiel)
@@ -33,19 +33,22 @@ L'organisation du cours sera basé sur les apprentissages de la [promotion 2019/
 
 - HTML
   - [Toutes les balises HTML](https://developer.mozilla.org/docs/Web/HTML/Element)
+  - [Tous les événements (`xyz.addEventListener()`)](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement#events)
   - [balise `<a>`](https://developer.mozilla.org/docs/Web/HTML/Element/a)
 - CSS
   - [Toutes les propriétés CSS](https://developer.mozilla.org/docs/Web/CSS/Reference)
-  - [Un jeu avec les sélecteurs CSS](https://flukeout.github.io/)
+  - [Un jeu pour comprendre les "sélecteurs CSS"](https://flukeout.github.io/)
   - [Transitionner d'un état vers un autre](https://developer.mozilla.org/docs/Web/CSS/transition)
   - [Animer un élément](https://developer.mozilla.org/docs/Web/CSS/animation)
   - [Transformer un élément](https://developer.mozilla.org/docs/Web/CSS/transform) (rotation, inclinaison, perspective 3D)
+  - [Générer une grille à partir d'un outil visuel](https://cssgrid-generator.netlify.app/)
 - DOM (lire et modifier des éléments HTML en écrivant du JavaScript)
   - [Element](https://developer.mozilla.org/docs/Web/API/Element)
   - [document](https://developer.mozilla.org/docs/Web/API/Document)
+  - [window](https://developer.mozilla.org/en-US/docs/Web/API/Window)
   - [querySelector()](https://developer.mozilla.org/docs/Web/API/Document/querySelector) et [querySelectorAll()](https://developer.mozilla.org/docs/Web/API/Document/querySelectorAll) pour trouver un ou des éléments dans la page (en utilisant un sélecteur CSS)
 - SVG (dessiner des images responsives, stylables et animables en CSS)
-  - [https://developer.mozilla.org/docs/Web/SVG](Documentation SVG)
+  - [Documentation SVG](https://developer.mozilla.org/docs/Web/SVG)
   - [balise `<circle>`](https://developer.mozilla.org/docs/Web/SVG/Element/circle)
   - [balise `<text>`](https://developer.mozilla.org/docs/Web/SVG/Element/text)
   - [Réaliser des icônes en SVG](https://fvsch.com/svg-icons/)
@@ -62,14 +65,31 @@ L'organisation du cours sera basé sur les apprentissages de la [promotion 2019/
 
 # Groupes projets
 
-Pas encore constitués.
+- Julien, Hélène, Lucas et Pierre : les CGUs<br>
+  Comment les événements exogènes se répercutent dans les CGUs.
+- Franck, Alex, Elias, William: journalisme (subventions de l'état à la presse)
+- Laure, Maxence, Marius, Gaspard : pratiques d'écoute de musique
 
 # Propositions de thématiques/problématiques
 
+## Catalogue des données publiques
+
+Personne ressource : Tam Kien Duong.
+
+- [Jeu de données](https://www.data.gouv.fr/fr/datasets/catalogue-des-donnees-de-data-gouv-fr/)
+
 ## Aides à la presse
+
+Personne ressource : Tam Kien Duong.
 
 - [Classement des titres de presse aidés ](https://www.data.gouv.fr/en/datasets/aides-a-la-presse-classement-des-titres-de-presse-aides/)
 - [Compilation des ressources sur les aides à la presse](https://www.data.gouv.fr/en/datasets/aides-a-la-presse-1/)
+- [Exemple réalisé à la main par le Monde Diplomatique](https://github.com/mdiplo/Medias_francais)
+- Problématiques explorables :
+  - Qui est aidé, pour combien ?
+  - Reproduire la carto du Monde Diplo, mais avec du code, pas à la main
+  - Un truc à faire avec la Presse Quotidienne Régionale (qu'est-ce qui part au local, ou aux grands groupes de presse)
+  - Comparer avec la base SIRENE, l'actionnariat et voir leur [indice Égalité Homme/Femme](https://index-egapro.travail.gouv.fr/) ?
 
 ## Impact environnemental des aliments
 
@@ -86,8 +106,12 @@ Personne ressource : Vincent Viers.
 
 ## Historique des valeurs de transactions immobilières
 
+Personne ressource : Tam Kien Duong.
+
 - [Demandes de valeurs foncières](https://www.data.gouv.fr/fr/datasets/demandes-de-valeurs-foncieres/)
 - [Site web de démonstration](https://app.dvf.etalab.gouv.fr/)
+- Problématiques explorables :
+  - Visualiser la spéculation (achat/revente avec plus-value dans un court laps de temps)
 
 ## Impact du tourisme
 

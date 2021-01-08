@@ -1,0 +1,306 @@
+<!-- le résultat est visible sur https://m2-min-2020.glitch.me/session-01/groupe2.html -->
+    
+<!-- image de référence dans le répertoire /assets -->
+<!-- https://cdn.glitch.com/c2d50366-41cd-47aa-807d-2bd2c5d0dfa4%2Fthumbnails%2Ftrello.png?1610102739562 -->
+
+
+<html>
+  <head>
+    <title> Trello Board - Groupe 2 </title>
+    <style>
+      
+      .board-bar-div{
+      display: inline-flex;
+      height : 40px;
+  
+        
+      }
+      
+      .left-nav{
+        display:inline-flex;
+        align-item:center; 
+        height : 70%;
+        
+      }
+      
+      .right-nav{
+        display:flex; 
+        flex-direction:row; 
+        height: 70%; 
+        width: 100px;
+        padding-right: 10px; 
+        
+        
+      }
+      
+      .nav-bar{
+         background-color: #0067A3; 
+         display: inline-flex;
+         flex-direction: row;
+         justify-content: space-between; 
+         align-items:center; 
+         height: 40px; 
+         
+        
+      }
+      
+      .button-bar{
+        width : 60px;
+        height : 100%;
+      }
+      
+      .title-logo{
+        color: white; 
+        text-transform: capitalize;
+        font-style: italic;
+        
+      }
+      
+      .section-board{
+        display : inline-flex;
+        justify-content : flex-start; 
+           height: 2.4rem;
+        
+        
+      }
+      
+      .board-list{
+        border : 1px solid;
+        border-radius: 15px;
+        width : 400px;
+        flex-direction:column; 
+        padding: 30px;
+               
+              }
+      
+      .board-list{
+        display: flex;
+        flex-direction: column;
+        background-color: #E7E7E5;
+        border-radius: 10px;
+        margin-right: 5px;
+   
+
+      }
+      
+      
+      .item-list{
+        
+        background-color: #eee;
+               
+        
+      }
+      
+       .item-list li {
+        
+         font-size: 1.4rem;
+          font-weight: 400;
+          line-height: 1.3;
+          background-color: #fff;
+          color: #4d4d4d;
+          border-bottom: 0.1rem solid #ccc;
+          border-radius: 0.3rem;
+          margin-bottom: 0.6rem;
+          word-wrap: break-word;
+          cursor: pointer;
+             list-style-type: none; 
+        
+      }
+      
+          .button .submenu {
+      display: none;
+      position: absolute;
+      background: rgba(255, 255, 255);
+    }
+    
+    .button:hover .submenu {
+      display: block;
+      position: absolute;
+    }
+    
+      
+      
+      body{
+      
+        display:flex; 
+        flex-direction: column; 
+        font-size: 20px; 
+        
+      }
+      
+      
+    </style> 
+  </head>
+  
+  
+  <!-- header-->
+  
+<header class="nav-bar">
+    
+  <div class="left-nav">
+    
+     <button class="button-bar">
+    <!-- image GRID à insérer -->
+    </button>
+    
+    <div class="nav-search">
+      <input type="search"> 
+      <i></i>
+      
+    </div>
+    
+    </div>
+    
+    <div class= "logo">
+          <!-- Logo à insérer -->
+          <h1 class="title-logo"> trello     </h1>
+      
+      
+   </div>   
+      
+    <div class= "right-nav">
+      
+          
+    <button class="button-bar">
+    <!-- + -->
+    </button>
+    
+    <button class="button-bar">
+    <!--Info-->
+    </button>
+    
+    <button class="button-bar">
+    <!--Cloche-->
+    </button>
+    
+    <button class="button-bar">
+    <!--User-->
+    </button>
+    
+      
+      </div>  
+
+  
+    
+  
+</header>
+  
+  <!-- End of header -->
+
+  
+   <!-- Board features bar --> 
+
+<section class= "board-nav"> 
+    
+  <div class= "board-bar-div" > 
+    
+    <div class = "button">
+      <a>A</a>
+     
+    
+      <ul class= "submenu">
+      
+        <li>a</li>
+        <li>b</li>
+
+      
+      </ul>
+      
+    
+      </div>
+      
+    
+      
+    
+      
+       <h1 class="title-logo"> nom tableau     </h1>
+      <button class="button-bar">
+        
+    <!--User-->
+      </button > 
+      <button class="button-bar">
+        <!--User-->
+       </button>
+        <nav>
+      
+        <li></li>
+        <li></li>
+          
+           </nav>
+    
+    
+  </div>
+    
+  </section> 
+        
+          
+          
+  <!--BOARD-->
+      
+  <section class= "section-board">    
+  
+  
+    <div class= "board-list">
+      
+        <h2 contenteditable = "true">
+          Colonne1
+        </h2>
+      
+         <ul class="item-list">
+      
+          
+              
+            <li>Card</li>
+            <li>Card</li> 
+            <li>Card</li>
+            <li>Card</li>
+            <li>Card</li>
+            <li>Card</li>
+            <li>Card</li>
+            <li>Card</li>
+            <li>Card</li>
+            <li>Card</li>
+
+      </ul>
+
+           
+        <button>Ajouter une carte</button>
+
+      </div>
+    
+    
+    <div class= "board-list">
+      
+        <h2 contenteditable = "true">
+          Colonne2
+        </h2>
+      
+         <ul class="item-list">
+      
+            <li>Card</li>
+            <li>Card</li>
+            <li>Card</li>
+            <li>Card</li>
+            <li>Card</li>
+            <li>Card</li>
+            <li>Card</li>
+            <li>Card</li>
+            <li>Card</li>
+            <li>Card</li>
+            <li>Card</li>
+
+      </ul>
+
+           
+        <button>Ajouter une carte</button>
+
+      </div>  
+        
+        
+        
+  
+  
+  </section>
+  
+  
+</html>

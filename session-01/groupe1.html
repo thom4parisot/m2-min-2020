@@ -1,0 +1,213 @@
+<!-- Matei Maxence Thibault -->
+
+<!-- image de référence dans le répertoire /assets -->
+<!-- https://cdn.glitch.com/c2d50366-41cd-47aa-807d-2bd2c5d0dfa4%2Fthumbnails%2Ftrello.png?1610102739562 -->
+
+<html>
+  <head>
+    <title>Trello test</title>
+    <h1>
+      <titre> Trello </titre>
+      <style>
+        h1 {
+          color: red;
+          font-family: arial, bold;
+          text-align: center;
+          font-size: 300%;
+        }
+      </style>
+    </h1>
+    <style>
+      /* syntaxe CSS */
+      head {
+        color: red;
+        font-family: arial, sans-serif;
+        text-align: center;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="Trello">
+      <!-- BARRE DE NAVIGATION -->
+      <nav class="nav">
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">Tableaux</a></li>
+          <li><a href="">Equipe</a></li>
+
+          <style>
+            li {
+              display: inline;
+            }
+          </style>
+        </ul>
+      </nav>
+
+      <div class="listes">
+        <style>
+          .listes {
+            display: flex;
+          }
+        </style>
+        <!-- TABLEAU 1 -->
+        <table>
+          <tr id="tab1">
+            <th colspan="1">A faire</th>
+          </tr>
+          <tbody id="td1">
+            <tr id="start">
+              <td>Carte 1</td>
+            </tr>
+            <tr>
+              <td>Carte 2</td>
+            </tr>
+          </tbody>
+          <style>
+            table,
+            td {
+              border: 1px solid #333;
+            }
+          </style>
+        </table>
+
+        <!-- TABLEAU 2 -->
+        <table>
+          <tr id="encours">
+            <th colspan="2">En cours</th>
+          </tr>
+          <tbody id="td2">
+            <tr>
+              <td>Carte 1</td>
+              <!-- <td>Liste 2</td> -->
+            </tr>
+            <tr>
+              <td>Carte 2</td>
+              <!-- <td>Liste 2</td> -->
+            </tr>
+          </tbody>
+          <style>
+            table2,
+            td {
+              border: 1px solid #333;
+            }
+          </style>
+        </table>
+
+        <!-- TABLEAU 3 -->
+        <table>
+          <tr>
+            <th colspan="1">Fait</th>
+          </tr>
+          <tbody id="td3">
+            <tr>
+              <td>Carte 1</td>
+              <!-- <td>Liste 2</td> -->
+            </tr>
+            <tr>
+              <td>Carte 2</td>
+              <!-- <td>Liste 2</td> -->
+            </tr>
+          </tbody>
+          <style>
+            table2,
+            td {
+              border: 1px solid #333;
+            }
+          </style>
+        </table>
+      </div>
+
+      <!-- CREATION DE CARTES -->
+      <!-- Texte carte -->
+      
+        <input type="text" id="card01" name="card01" />
+        <input type="text" id="card02" name="card02" />
+        <input type="text" id="card03" name="card03" />
+      
+      <!-- BOUTON CREATION DE CARTES -->
+      <card1>
+        <br />
+        <input
+          type="button"
+          name="card 1"
+          value="Ajouter une carte"
+          onclick="addcard()"
+        />
+      </card1>
+      
+      <card2>
+  
+        <input
+          type="button"
+          name="card 2"
+          value="Ajouter une carte"
+          onclick="addcard2()"
+        />
+      </card2>
+      
+      <card3>
+        
+        <input
+          type="button"
+          name="card 3"
+          value="Ajouter une carte"
+          onclick="addcard3()"
+        />
+      </card3>
+
+      <!-- SCRIPT JAVASCRIPT -->
+      <script>
+        function playSound(url) {
+          const audio = new Audio(url);
+          audio.play();
+        }
+
+        function msg() {
+          alert("Bonjour bonjour bonjour");
+        }
+
+        /*
+        Fonction pour changer le texte de la carte 1
+        function card() {
+          var texte1 = document.querySelector("#card01").value;
+          document.querySelector("#td1").innerHTML = texte1;
+        }*/
+
+        var boutonPourcentage = document.querySelector("#pourcentage");
+        var affichage = document.querySelector("output");
+
+        function addcard() {
+          var texte1 = document.querySelector("#card01").value;
+          
+          var newLine = document.createElement('tr');
+          newLine.innerHTML = texte1;
+          var tableau1 = document.querySelector("#td1");
+          tableau1.appendChild(newLine);
+          
+        }
+        
+        function addcard2() {
+          var texte1 = document.querySelector("#card02").value;
+          
+          var newLine = document.createElement('tr');
+          newLine.innerHTML = texte1;
+          var tableau1 = document.querySelector("#td2");
+          tableau1.appendChild(newLine);
+          
+        }
+        
+        function addcard3() {
+          var texte1 = document.querySelector("#card03").value;
+          
+          var newLine = document.createElement('tr');
+          newLine.innerHTML = texte1;
+          var tableau1 = document.querySelector("#td3");
+          tableau1.appendChild(newLine);
+          
+        }
+        
+      </script>
+    </div>
+  </body>
+</html>

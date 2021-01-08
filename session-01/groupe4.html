@@ -1,0 +1,80 @@
+<html>
+  <!-- le résultat est visible sur https://m2-min-2020.glitch.me/session-01/groupe4.html -->
+  <!-- image de référence dans le répertoire /assets -->
+  <!-- https://cdn.glitch.com/c2d50366-41cd-47aa-807d-2bd2c5d0dfa4%2Fthumbnails%2Ftrello.png?1610102739562 -->
+
+  <head>
+    <title>Trello</title>
+    <meta charset="utf-8" />
+
+    <style>
+      .body {
+        background-color: grey; ca marche pas
+      }
+      
+      .navbar {
+        display: inline-block; ca marche pas
+      }
+
+      .cols {
+        background-color: lightBlue;
+      }
+
+      .col {
+        display: inline-block;
+        background-color: blue;
+      }
+
+      .row {
+        display: block;
+        background-color: white;
+        margin-bottom: 10px;
+        margin-right: 5px;
+      }
+    </style>
+  </head>
+
+  <body>
+    
+    <nav class="navbar">
+      
+    <input type="text" placeholder="Recherche">
+    
+    <span id="header">
+      <img
+        src="https://cdn.glitch.com/c2d50366-41cd-47aa-807d-2bd2c5d0dfa4%2Flogo_trello.png?v=1610103609185"
+        alt="logo trello"
+        width="50"
+        height="50"
+      />
+      <h1>Trello - Like</h1>
+    </span>
+    
+    </nav>
+
+    <div class="cols">
+      <div class="col">
+        <header>Colonne 1</header>
+
+        <ul>
+          <span class="row"> <input type="text"> </span>
+          <span class="row"> <input type="text"> </span>
+        </ul>
+
+        <button>Add another card</button>
+      </div>
+
+      <div class="col">
+        <header>Colonne 2</header>
+        <ul>
+          <span class="row"> <input type="text"> </span>
+          <span class="row"> <input type="text"> </span>
+        </ul>
+        <button>Add another card</button>
+      </div>
+      <div>
+     
+      </div>
+    </div>
+  </body>
+</html>
