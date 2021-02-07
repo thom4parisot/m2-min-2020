@@ -1,0 +1,27 @@
+<style>
+  :root {
+    --couleur-principale: rgba(0, 0, 255, 0.8);
+  }
+  
+  
+  .carre {
+    background: var(--couleur-principale); /* rgb(0, 255, 0) = #00ff00 */
+    border: 2px dashed gray;
+    opacity: 1; /* tout  l'élément */
+    height: 20px;
+    width: 20px;
+  }
+</style>
+
+
+<div class="carre">
+  
+</div>
+
+
+<hr>
+
+<div style="border: 2px dotted var(--couleur-principale)">
+  <label for="color-input">Champ couleur</label>
+  <input type="color" id="color-input" value="var(--couleur-principale)">
+</div>

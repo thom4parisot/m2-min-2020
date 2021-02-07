@@ -2,6 +2,49 @@
 
 Un endroit où on consigne nos apprentissages, ce qu'on met en place pour améliorer le cours et ce qu'on en retient.
 
+## Jeudi 4 février 2021
+
+### Qu'est-ce qu'on a fait ?
+
+### Qu'est-ce que j'ai appris ?
+
+- approfondi JavaScript
+- davantage compris comment l'utiliser avec la Console (avant j'avais l'habitude dans un IDE)
+- comment extraire des données et les manipuler en JavaScript
+- faire un menu déroulant (placer des éléments, de nouveaux attributs que j'apprends avec la pratique)
+- manipuler des objets en JavaScript (pour projet de dataviz perso)
+- plein de petites choses sur les bases, et la console que je ne connaissais pas
+- approfondissement JS - utilisation des fonctions (sur les tableaux par exemple), ça m'a aidé
+- la manipulation des datasets avec Excel
+- approfondi JS, et d3js (mieux compris comment un fichier SVG est structuré)
+- utiliser une frise chronologique en JavaScript
+- découvert l'existence de la frise chronologique, les structures en JS
+
+### Sur quoi je bloque ?
+
+- du mal à comprendre ce qu'on veut dire maintenant qu'on a normalisé les données
+- des trucs qui prennent du temps, plus que des blocages
+- tous les petits détails (centrer les éléments, des petits décalages d'affichage sur une interaction)
+- d3js c'est assez compliqué
+- difficile de se retrouver dans les versions de d3
+- les données, certaines qu'on n'a pas et qu'il nous faut
+- vision et capacité à savoir ce qu'il nous manquerait pour faire parler les données
+
+### Qu'est-ce qu'on améliore pour le cours ?
+
+- plus de JS (préférence perso)
+- comprendre comment faire de manière plus visuelle l'exercice du matin
+- échanger sur les considérations techniques/présentation comme la démo du matin
+- supports visuels et/ou diapo pour les relire plus tard (+3)
+
+## Vendredi 29 janvier 2021
+
+### Qu'est-ce qu'on a fait ?
+
+- Tour du moral et des avancées projet
+- Questions/réponses par groupe de travail projet
+- Topo sur le système hexadécimal des couleurs
+
 ## Vendredi 8 janvier 2021
 
 ### Qu'est-ce qu'on a fait ?

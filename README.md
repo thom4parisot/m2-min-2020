@@ -22,12 +22,11 @@ L'organisation du cours sera basé sur les apprentissages de la [promotion 2019/
 # Journal de bord
 
 - [Mercredi 6 janvier 2021](JOURNAL.md#mercredi-6-janvier-2021) : présentation des données (présentiel)
-- Vendredi 8 janvier 2021 (toute la journée, présentiel)
-- Lundi 18 janvier 2021 (toute la journée, présentiel)
-- Vendredi 22 janvier 2021 (toute la journée, présentiel)
-- Vendredi 29 janvier 2021 (toute la journée, présentiel)
+- [Vendredi 8 janvier 2021](JOURNAL.md#vendredi-8-janvier-2021) (toute la journée, présentiel/en ligne)
+- Vendredi 22 janvier 2021 (toute la journée, présentiel/en ligne)
+- Vendredi 29 janvier 2021 (matinée, en ligne)
 - Jeudi 4 février 2021 (toute la journée, présentiel)
-- Lundi 15 mars 2021 : présentation des rendus
+- Lundi 15 mars 2021 : présentation des rendus (après-midi)
 
 # Ressources pour apprendre
 
@@ -42,6 +41,10 @@ L'organisation du cours sera basé sur les apprentissages de la [promotion 2019/
   - [Animer un élément](https://developer.mozilla.org/docs/Web/CSS/animation)
   - [Transformer un élément](https://developer.mozilla.org/docs/Web/CSS/transform) (rotation, inclinaison, perspective 3D)
   - [Générer une grille à partir d'un outil visuel](https://cssgrid-generator.netlify.app/)
+  - **Couleurs**
+    - [Comprendre et analyser le code couleur hexadécimal](https://www.color-hex.com/color/00ff00) (exemple : `#00ff00`)
+    - [Un jeu pour deviner les couleurs hexadécimales](http://www.hexinvaders.com/)
+    - [Les dégradés en CSS](https://developer.mozilla.org/fr/docs/Web/CSS/Utilisation_de_d%C3%A9grad%C3%A9s_CSS)
 - DOM (lire et modifier des éléments HTML en écrivant du JavaScript)
   - [Element](https://developer.mozilla.org/docs/Web/API/Element)
   - [document](https://developer.mozilla.org/docs/Web/API/Document)
@@ -65,10 +68,11 @@ L'organisation du cours sera basé sur les apprentissages de la [promotion 2019/
 
 # Groupes projets
 
-- Julien, Hélène, Lucas et Pierre : les CGUs<br>
+- Les CGUs : Julien, Hélène, Lucas et Pierre<br>
   Comment les événements exogènes se répercutent dans les CGUs.
-- Franck, Alex, Elias, William: journalisme (subventions de l'état à la presse)
-- Laure, Maxence, Marius, Gaspard : pratiques d'écoute de musique
+- Subventions de l'état à la presse : Franck, Alex, Elias, William
+- Pratiques d'écoute de musique : Laure, Maxence, Marius, Gaspard
+- Lieux de tournage à Paris : Matei, Sheila, Thibault
 
 # Propositions de thématiques/problématiques
 

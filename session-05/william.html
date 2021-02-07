@@ -1,0 +1,44 @@
+<html>
+  <body>
+    <h1>
+      Vous devez deviner un nombre entre 1 et 100
+    </h1>
+
+    <div>
+      <label for="input">Entrez un nombre: </label>
+      <input type="text" id="input" />
+      <input type="submit" value="deviner" id="btn1" />
+    </div>
+
+    <div>
+      <p id="resultat">...</p>
+    </div>
+
+    <script>
+      //1 : tableau
+      const tab = [38, 18, 55.5, -10];
+
+      //2  : nombre le plus grand du tableau
+      console.log(Math.max(...tab));
+      //3 : nombre le plus petit du tableau
+      console.log(Math.min(...tab));
+
+      //4 : nombre aléatoire à faire deviner à l'utilisateur
+
+      var rand = Math.floor(Math.random() * 100 + 1); // nombre aléatoire à déviner
+
+      document.getElementById("btn1").onclick = function() {
+        var user = document.getElementById("input").value; // input de l'utilisateur
+
+        if (user == rand) {
+          document.getElementById("resultat").innerHTML =
+            "Bravo! Tu as gagné un iphone 12 pro max";
+        } else if (user > rand) {
+          document.getElementById("resultat").innerHTML = "trop grand :(";
+        } else if (user < rand) {
+          document.getElementById("resultat").innerHTML = "trop petit :(";
+        }
+      };
+    </script>
+  </body>
+</html>

@@ -1,0 +1,121 @@
+<html>
+  <body>
+    
+    
+    <h1>
+      Un titre
+    </h1>
+    
+    <p>
+      Un paragraphe
+    </p>
+    
+    
+    <script src="https://d3js.org/d3-dsv.v2.min.js"></script>
+    <script src="https://d3js.org/d3-fetch.v2.min.js"></script>
+    
+    <script>
+      // chaines
+      const prenom = "Thomas" // chaine de caractères
+      const prenom2 = "François"
+      const prenom3 = prenom2
+      
+      // nombres
+      const nombre = 42 // nombre
+      const nombre2 = nombre + 10 / 2 * 2
+      const reste = 5 % 4
+      
+      // tableaux
+      const tableau = [ /* 1 */ prenom, /* 2 */ 42, /* 3 */ [ nombre ] ]
+      
+      const tableauDeNombre = tableau.filter(function estUnNombre(element){
+        return Number.isInteger(element)
+      })
+      
+      console.log(tableau[0], tableau[1] + tableau[2][0])
+      
+      // opérations sur tableaux
+      const collection = [
+        { type: "chaussure", couleur: "bleu" },
+        { type: "botte", "couleur": "jaune" }
+      ]
+
+      collection
+        .filter(function(element){
+            return element.type === "botte"
+        })
+        .map(function(element){
+            return element.couleur
+        })
+      
+      
+      // objets
+      const structure = {
+        "prenom": prenom,
+        "nom": "Parisot"
+      }
+      
+      console.log(structure.prenom)
+      
+      // fonctions
+      function multiply (nombre, valeur = 2) {
+        return nombre * valeur
+      }
+      
+      function double (nombre) {
+        return multiply(nombre, 2)
+      }
+      
+      console.log("prénom", prenom)
+      console.log("fonction multiply (définition)", multiply)
+      console.log("fonction multiply (résultat)", multiply(2, 2))
+      console.log("fonction double (résultat)", double(2))
+    
+ 
+      // conditions
+      if (tableau[1] > 10) {
+        // code à exécuter si la valeur de tableau[1] est supérieuse à 10
+      }
+      // sinon (optionnel : un "if" peut vivre tout seul)
+      else {
+        // code à exécuter si la valeur de tableau[1] n'est pas supérieure à 10
+      }
+      
+      // exercice 4
+      function devineUnNombre (/* bout à remplacer */) {
+        const nombreSecret = 10
+        
+        /*
+          bout à remplacer
+        */
+        
+        return /* bout à remplacer */
+        
+      }
+      // devineUnNombre(50) -> plus petit
+      // devineUnNombre(5) -> plus grand
+      // devineUnNombre(10) -> bravo !
+      
+      function devineUnNombreAleatoire () {
+        const nombreSecret = genereUnNombreEntre1et100() /* fonction à écrire */
+        
+        return function (saisieUtilisateur) {
+          /* ... */
+        }
+      }
+      
+      // const devineUnNombre = devineUnNombreAleatoire()
+      // devineUnNombre(50) -> plus grand
+      // devineUnNombre(55) -> plus petit
+      // devineUnNombre(53) -> bravo !
+    
+    
+      // utilisation de fonctions chargées plus haut (lignes 14 et 15)
+      d3.csv("exemple.csv").then(function(data) {
+        console.log(data); // [{"Hello": "world"}, …]
+      });
+      
+    
+    </script>
+  </body>
+</html>
