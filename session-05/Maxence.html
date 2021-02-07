@@ -1,0 +1,43 @@
+<html>
+  <body>
+    
+    
+    <h1>
+      Un titre
+    </h1>
+    
+    <p>
+      Un paragraphe
+    </p>
+    
+    
+    <script src="https://d3js.org/d3-dsv.v2.min.js"></script>
+    <script src="https://d3js.org/d3-fetch.v2.min.js"></script>
+    
+    <script>
+      const secret = 45
+      t = [38, 18, 55.5, -10];
+      t.sort();
+      console.log(t);
+      max = Math.max.apply(null, t);
+      console.log(max);
+
+      min = Math.min.apply(null, t);
+      console.log(min);
+      enter = readline();
+
+      function devine(nombre){
+        if (secret-nombre<0) {
+          console.log("Trop grand")
+        } else if (secret-nombre>0){
+          console.log("Trop petit")
+        } else {
+          console.log("Bien ouej")
+        }
+        return 1
+      }
+      
+    
+    </script>
+  </body>
+</html>

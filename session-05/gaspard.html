@@ -1,0 +1,40 @@
+<html>
+  <body>
+    
+    <script>
+
+
+    const tableau = [38, 18, 55.5, -10];
+
+    tableau.sort();
+
+    console.log(tableau);
+
+    var max = tableau[3];
+    var min = tableau[0];
+    console.log(max);
+    console.log(min);
+      
+    
+    const nombresecret = Math.floor(Math.random() * 100); 
+      
+    function testnombre(x){
+      if(x<nombresecret){
+        console.log(x+" est plus petit que le nombre secret")
+      }
+      else if(x>nombresecret){
+        console.log(x+" est plus grand que le nombre secret")
+      }
+      else{
+        console.log("Bravo, vous avez trouvé le nombre secret")
+      }
+      return
+    }
+    
+    </script>
+  </body>
+  
+</html>
+
+
+
